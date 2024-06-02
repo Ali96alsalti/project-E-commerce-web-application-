@@ -1,0 +1,22 @@
+               public class UserWelcome-24s25273 {
+   	 public static void main(String[] args) -24s25273  {
+      	 String[] users = {"admin", "guest", "member"};-24s25273
+        	for (String user : users) -24s25273 {
+            	switch (user) -24s25273  {
+               case "admin":-24s25273
+               System.out.println("Welcome, Admin!"); -24s25273
+                    break; -24s25273
+                case "guest":-24s25273
+                    System.out.println("Welcome, Guest!"); -24s25273
+                    break; -24s25273
+                case "member":-24s25273
+                    System.out.println("Welcome, Member!"); -24s25273
+                    break; -24s25273
+                 default: -24s25273
+                    System.out.println("Welcome, User!"); -24s25273
+                    break; -24s25273
+            }
+        }
+    }
+}
+
